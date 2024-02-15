@@ -17,7 +17,7 @@
         <div>
           <button
             id="humbuger-button"
-            class="text-3xl sm:hidden focus:outline-none"
+            class="text-3xl cursor-pointer sm:hidden"
           >
             &#9776;
           </button>
@@ -27,6 +27,20 @@
             <a href="#contacts" class="hover:opacity-70"> Contacts-Us </a>
           </nav>
         </div>
+      </section>
+      <section
+        id="mobile-menu"
+        class="absolute top-0 bg-black w-full text-5xl flex flex-col"
+      >
+        <button class="flex self-end text-8xl px-6">&times;</button>
+        <nav
+          class="flex flex-col min-h-screen items-center py-8"
+          aria-label="mobile"
+        >
+          <a href="#hero" class="w-full text-center py-6 hover:opacity-90"
+            >Home</a
+          >
+        </nav>
       </section>
     </header>
     <main class="max-w-4xl mx-auto">
