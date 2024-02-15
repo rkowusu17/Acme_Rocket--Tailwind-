@@ -1024,6 +1024,14 @@ video {
   opacity: 0.9;
 }
 
+.hover\:opacity-60:hover {
+  opacity: 0.6;
+}
+
+.hover\:opacity-30:hover {
+  opacity: 0.3;
+}
+
 .active\:bg-teal-500:active {
   --tw-bg-opacity: 1;
   background-color: rgb(20 184 166 / var(--tw-bg-opacity));
