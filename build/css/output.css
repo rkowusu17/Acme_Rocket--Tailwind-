@@ -630,6 +630,28 @@ video {
   max-width: 28rem;
 }
 
+.origin-top {
+  transform-origin: top;
+}
+
+@keyframes Open-menu {
+  0% {
+    transform: ScaleY(0);
+  }
+
+  80% {
+    transform: ScaleY(1.1);
+  }
+
+  100% {
+    transform: ScaleY(1);
+  }
+}
+
+.animate-Open-menu {
+  animation: Open-menu 0.5s ease-in-out forwards;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -749,6 +771,10 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-95 {
+  --tw-bg-opacity: 0.95;
 }
 
 .p-2 {
